@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".Admin.AdminMain">
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY PROFILE"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:layout_marginTop="52sp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANAGE GENRE"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50sp"
+        android:onClick="adminGoMngCategory"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOOKS LIST"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:onClick="adminGoBooks"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnPendingOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENDING ORDERS"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:onClick="adminGoPendingOrders"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDERS HISTORY"
+        android:padding="10dp"
+        android:onClick="adminGoOrders"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPLAINTS"
+        android:padding="10dp"
+        android:onClick="adminGoComplaints"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN OUT"
+        android:layout_marginHorizontal="50sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="adminGoLogout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>

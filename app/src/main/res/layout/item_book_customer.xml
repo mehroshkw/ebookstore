@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5sp"
+    app:cardCornerRadius="25sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="#F0F4C3">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RatingBar
+            android:id="@+id/cardRatingBar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="5sp"
+            android:rating="3"/>
+
+        <TextView
+            android:id="@+id/tvCardRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/purple_500"
+            android:layout_marginTop="5sp"
+            android:layout_toEndOf="@+id/cardRatingBar"
+            android:text="(3/5)" />
+
+        <TextView
+            android:id="@+id/tvCardReview"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:drawableRight="@drawable/baseline_rate_review"
+            android:padding="5dp"
+            android:textAlignment="textEnd"
+            android:text="Review"
+            android:textColor="@color/purple_500" />
+
+
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:text="Title:"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tvCardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+
+                android:text="Book Title"
+                
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:text="Genre:"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tvCardCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Book Genre"
+                
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:text="Author:"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tvCardAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Author"
+                
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:text="Price:"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tvCardPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Price"
+                
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:text="Status:"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tvCardStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Status"
+                
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:text="Publisher:"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tvCardPublisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Publisher"
+                
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:padding="5sp">
+
+            <TextView
+                android:id="@+id/tvCardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:drawableRight="@drawable/ic_baseline_info_24"
+                android:padding="5dp"
+                android:text="Book Details"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#0B35CD"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvCardAddCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:drawableRight="@drawable/ic_baseline_add_shopping_cart_24"
+                android:padding="5dp"
+                android:text="Add to Cart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#0B35CD"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

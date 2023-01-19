@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1063378219594",
+    "project_id": "book-store-appt",
+    "storage_bucket": "book-store-appt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063378219594:android:4571b093685fbbc1e02cb3",
+        "android_client_info": {
+          "package_name": "com.example.bookstoreappt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063378219594-ha6ui6tum33purlebrglcgs3fprtmvj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdpY5cj-SXRD52gdTlHHK7uaaAxlfgRzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063378219594-ha6ui6tum33purlebrglcgs3fprtmvj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

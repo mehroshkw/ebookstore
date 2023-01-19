@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".Customer.CustomerMain">
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:text="MY PROFILE"
+        android:padding="10dp"
+        android:layout_marginTop="52sp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:onClick="buyerGoProfile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnCategory"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:text="BOOKS"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:onClick="buyerGoBooks"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnComplaints"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:text="COMPLAINTS"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:onClick="buyerGoMyComplaints"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:text="ORDERS"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:onClick="buyerGoOrderPending"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:text="SIGN OUT"
+        android:layout_marginHorizontal="50sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="buyerGoLogout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>

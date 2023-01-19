@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="ADMIN"
+        android:padding="10dp"
+        android:layout_marginTop="52sp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+
+        android:onClick="gotoAdminLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:id="@+id/btnCategory"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="SELLER"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotoSellerLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="BUYER"
+        android:padding="10dp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotoBuyerLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>
